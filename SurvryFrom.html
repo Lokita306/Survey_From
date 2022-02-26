@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scaled=1, user-scalable=no" />
+        <title>Survey_From</title>
+        <link rel="stylesheet" type="text/css" href="SFrom.css">
+    </Head>
+    <body>
+        <div class="heading">
+            <h1 id="Head"><strong>FreeCodingCamp survey from</strong></h1>
+            <marquee width="100%" direction="right" height="100px">
+            <h2 id="subheading"><em>Thanks for a Taking time to help us improve the platefrom</em></h2>  
+            </marquee>
+        </div>
+    <form>
+        <div id="Content1"> 
+            <label># Name:</label><br><br>
+            <input type="name" name="name" placeholder="Enter Your Name" class="box"> <br> <br> 
+            <label># Mobile Number:</label><br><br>
+            <input type="tel" name="number" placeholder="Enter Your Mobile Number" pattern="[789][0-9]{9}" class="box"> <br> <br> 
+            <label># Email:</label><br><br>
+            <input type="email" name="email" placeholder="Enter Your Email Address" class="box"> <br> <br> 
+            <label># Age(Optional):</label><br><br>
+            <input type="age" name="age" placeholder="Enter Your Age" class="box"> <br> <br> 
+            <label># Date of Birth:</label><br><br>
+            <input type="date" name="date" placeholder="Enter Your DOB" class="box"> <br> <br> 
+            <label># Select Gender</label><br><br>
+            <input type="radio" name="radio">Male<br>
+            <input type="radio" name="radio" >Female<br>
+            <input type="radio" name="radio">Transgender<br>
+            <input type="radio" name="radio">Trans Women<br>
+            <input type="radio" name="radio">Trans men<br><br>
+        </div>
+    
+         <div id="option1">
+            <label># Which option discribe your current role?</label><br><br>
+             <select>
+             <option name="Select Your Role">Select Your Role</option>
+             <option value="Student">Student</option>
+             <option value="Full Time Job">Full Time Job</option>
+             <option value="Part Time Job">Part Time Job/Study</option>
+             <option value="Full Time Learner">Full Time Learner</option>
+             <option value="Prefer Not to Say">Prefer Not to Say</option>
+             <option value="Other">Other</option>
+            </select>
+         </div>
+         <br>
+         <label id="head1"># Would you recommended FreeCodingCamp for a friend?</label><br><br>
+            <input type="radio" name="radio">Definitely<br>
+            <input type="radio" name="radio" >May be<br>
+            <input type="radio" name="radio">Sure<br> <br>
+
+        <div id="Option1"> 
+             <label># What is your favourite feature of FreeCodingCamp?</label><br><br>
+             <select>
+                <option name="Select Your Option">Select Your Option</option>
+                <option value="Challenged">Challenged</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+             </select>
+        </div>
+        <br>
+    <label id="head1"># What would you Like to see Improved ?</label><br><br>
+    <div id="Content2">
+        <input type="checkbox" name="checkbox" class="larger"><label>Front-End Peoject</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Back-End Peoject</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Data Visuliasation</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Challenges</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Help rooms</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Videos</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Additional courses</label><br>
+        <input type="checkbox" name="checkbox" class="larger"><label>Programming</label><br>
+     </div>
+     <br><br>
+     <lable>Upload your Resume</lable><br>
+     <input type="file">
+     <br><br>
+     <label id="head2"># Any Comment or Suggestion?</label><br><br>
+     <textarea rows="5" cols="100" placeholder="Enter Your Comment Here........"></textarea><br><br>
+     <button><h3>Submit</h3></button>
+   </form>           
+</body>
+</html>
